@@ -64,7 +64,7 @@
 60. Portfolio Slider 6
 61. Testimonial Slider 4
 62. Team 7
-63.Portfolio Slider 7
+63. Portfolio Slider 7
 64. Header 7
 65. Service 7 Animation
 ****************************************************/
@@ -693,6 +693,10 @@
   /////////////////////////////////////////////////////
   // 18. Button Hover Animation
   $('.btn-hover').on('mouseenter', function (e) {
+
+    // $('.talkus_box').removeClass('d-none');
+
+
     var x = e.pageX - $(this).offset().left;
     var y = e.pageY - $(this).offset().top;
 
@@ -2375,6 +2379,9 @@
     spaceBetween: 30,
     centeredSlides: true,
     speed: 2000,
+    autoplay: {
+      delay: 1000,
+    },
     breakpoints: {
       640: {
         slidesPerView: 2,
@@ -4058,8 +4065,6 @@
     });
   }
   /////////////////////////////////////////////////
-
-
 
 
 
