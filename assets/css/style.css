@@ -1,3 +1,59 @@
+@charset "UTF-8";
+/*----------------------------------------*/
+/*  01. VARIBALES CSS START
+/*----------------------------------------*/
+:root {
+  --primary: #c9f31d;
+  --secondary: #2c2c2c;
+  --black: #000;
+  --black-2: #121212;
+  --black-3: #555;
+  --black-4: #1d1d1d;
+  --black-5: #343434;
+  --black-6: #262626;
+  --black-7: #555555;
+  --black-13: #666;
+  --white: #fff;
+  --white-2: #efefef;
+  --white-3: #e9e9e9;
+  --white-4: #f0f0f0;
+  --white-5: #fbfbfb;
+  --white-6: #d7d7d7;
+  --white-7: #F5F5F5;
+  --gray: #c2c2c2;
+  --gray-2: #999;
+  --gray-3: #a8a8a8;
+  --gray-4: #f6f6f6;
+  --gray-5: #bbb;
+  --gray-6: #2b2b2b;
+  --gray-7: #b9b9b9;
+  --gray-8: #8E8E8E;
+  --gray-9: #aaa;
+  --gray-10: #7c7c7c;
+  --gray-11: #D9D9D9;
+  --gray-12: #383838;
+  --gray-13: #ccc;
+  --gray-14: #dfdfdf;
+  --gray-15: #C0C0C0;
+  --gray-16: #939393;
+  --pink: #FAEDE9;
+  --pink-2: #FF9776;
+  --pink-3: #F3ECEC;
+  --pink-4: #FFFAF0;
+  --pink-5: #E0E3CC;
+  --bg-line: #1e1e1e;
+  --d-gray: #6A6A6A;
+  --d-black: #1A1A1A;
+  --d-black-2: #171717;
+  --d-black-3: #1A1A1A;
+}
+
+@font-face {
+  font-family: newYork;
+  src: url("/assets/fonts/newyork/FontsFree-Net-NewYork.ttf");
+  font-weight: 400;
+}
+
 .talkus_box
 {
   width: 200px;
@@ -41,4 +97,272 @@
 
 .whatsapp-box {
   background-color: #075e54 !important;
+}
+
+
+.woocomerce__feature-producttitle {
+  color: var(--white);
+}
+.woocomerce__feature-hover {
+  background: var(--gray-2);
+}
+
+.woocomerce__shopsidebar .accordion-button {
+  color: var(--white);
+  border-top: 1px solid var(--white);
+}
+
+.woocomerce__shopsidebar-list li a {
+  color: var(--white);
+}
+
+.woocomerce__shopsidebar-title {
+  color: var(--white);
+}
+
+.accordion-item {
+  color: var(--white);
+}
+
+.price-range-slider .range-bar {
+  background: var(--white);
+}
+
+.price-range-slider .range-value input {
+  color: var(--white);
+}
+
+.price-range-slider .range-bar .ui-slider-handle {
+  border: 2px solid grey;
+}
+
+.price-range-slider .range-bar .ui-slider-handle + span {
+  background: grey;
+}
+
+.dark .header__area-7.sticky-7 {
+  border-color: var(--secondary);
+}
+.dark .award__left-7 .sec-title {
+  color: var(--black-2);
+}
+.dark .main-menu-4 li a {
+  color: var(--white);
+}
+.dark .main-menu-4 li a .menu-text {
+  text-shadow: 0 16px 0 var(--white);
+}
+.dark .header__nav-icon-7 img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+.dark .header__area-7.sticky-7 {
+  background: var(--black-2);
+}
+
+.woocomerce__header-left .woocomerce-menu.main-menu-3 > li > a .menu-text {
+  color: var(--white);
+}
+
+.woocomerce__header-cartwrapper a i {
+  color: var(--white);
+}
+
+.woocomerce__header-cartwrapper a p {
+  color: var(--white);
+}
+
+.woocomerce__header-user a {
+  color: var(--white) !important;
+}
+
+.dark {
+  color: var(--white);
+}
+
+.woocomerce__header-cartwrapper a {
+  color: var(--white);
+}
+
+.woocomerce__header-search .search-icon {
+  color: var(--white);
+}
+
+.woocomerce__header-cart img {
+  filter: invert(100%);
+}
+
+.woocomerce__header-user a i {
+  color: var(--white);
+}
+
+.woocomerce__cart-header li {
+  color: var(--white);
+}
+
+.woocomerce__cart-amountlist li {
+  color: var(--white);
+}
+
+.woocomerce__cart-menuitems li {
+  color: var(--white);
+}
+
+.woocomerce__cart-btn {
+  background: var(--white);
+  color: var(--black);
+}
+
+.woocomerce__cart-field input {
+  background: transparent;
+  color: var(--white);
+}
+
+.woocomerce__cart-couponbtn {
+  color: var(--white);
+  border: 1px solid var(--white-2);
+}
+
+.woocomerce__cart-rtitle a {
+  color: var(--white-2);
+}
+
+.woocomerce__cart-close img {
+  filter: invert(100%);
+}
+
+.woocomerce__cart-form span {
+  color: var(--white-2);
+}
+
+.info-img {
+  filter: invert(100%);
+}
+
+.woocomerce__cart .counter__input {
+  background: transparent;
+  color: var(--white-2);
+}
+
+.woocomerce__cart .counter__decrement.decrement2 {
+  filter: invert(100%);
+}
+
+.woocomerce__cart .counter__increment.increment2 {
+  filter: invert(100%);
+}
+
+.woocomerce__cart-title {
+  color: var(--white-2);
+}
+
+.woocomerce__single-title {
+  color: var(--white-2);
+}
+
+.woocomerce__single-discountprice {
+  color: var(--white-2);
+}
+
+.woocomerce__single-review i {
+  color: var(--white-2);
+}
+
+.woocomerce__single-productMore p {
+  color: var(--white);
+}
+
+.woocomerce__single .counter__decrement, .woocomerce__single .counter__increment {
+  color: var(--white-2);
+}
+
+.woocomerce__single .counter__decrement, .woocomerce__single .counter__increment {
+  color: var(--white-2);
+}
+
+.woocomerce__single .counter__input {
+  background: transparent;
+  color: var(--white-2);
+}
+
+.woocomerce__single-cart {
+  background: var(--white-2)
+}
+
+.woocomerce__single-features li {
+  color: var(--white-2); 
+}
+
+.woocomerce__single-features > li > img {
+  filter: invert(100%);
+}
+
+.woocomerce__single-stitle {
+  color: var(--white-2);  
+}
+
+.woocomerce__single-sizelist li:hover {
+  color: var(--black);
+  background: var(--black-2)
+}
+
+.woocomerce__single .accordion-button::after {
+  filter: invert(100%);
+}
+
+.woocomerce__single .accordion-item:first-child {
+  border-top: 1px solid var(--white-2);
+}
+
+.woocomerce__single .accordion-item {
+  border-top: 1px solid var(--white-2);
+  border-bottom: 1px solid var(--white-2);
+}
+
+.woocomerce__single-wish > img {
+  filter: invert(100%);
+}
+
+.woocomerce__single-cart > img {
+  filter: invert(100%);
+}
+
+.woocomerce__single-cart {
+  color: var(--black-2);
+}
+
+.woocomerce__single-breadcrumb li a {
+  color: var(--white-2);
+}
+
+.woocomerce__single-productMore .nav-tabs::before {
+  color: var(--white-2); 
+}
+
+.woocomerce__single-productMore .nav-link:hover {
+  color: var(--white-2);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: transparent;
+}
+
+.woocomerce__single-productMore .nav-tabs::before {
+  background: var(--white-2);
+}
+
+.woocomerce__feature-arrowwrapper .swiper-button-disabled img {
+  filter: invert(100%);
+}
+
+.woocomerce__feature-arrowwrapper img {
+  filter: invert(100%);
+}
+
+.woocomerce__feature-viewall {
+  color: var(--white-2);
+}
+
+.woocomerce__feature-newprice {
+  color: var(--white-2);
 }

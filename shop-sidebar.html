@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Axtra HTML5 Template">
 
-  <title>Home - Woocomerce with Filtering Sidebar</title>
+  <title>Trendy Punching</title>
 
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
@@ -28,11 +27,11 @@
   <link rel="stylesheet" href="assets/css/meanmenu.min.css">
   <link rel="stylesheet" href="assets/css/jquery-ui.css">
   <link rel="stylesheet" href="assets/css/master.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
-<body>
+<body class="dark">
   <!-- Cursor Animation -->
   <div class="cursor1"></div>
   <div class="cursor2"></div>
@@ -52,48 +51,19 @@
     </div>
   </div>
 
-  <!-- Switcher Area Start -->
-  <div class="switcher__area">
-    <div class="switcher__icon">
-      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
-      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+
+
+  <!-- Talk us option box -->
+  <div class="talkus_box d-none">
+    <div class="close_btn text-right">
+      <a href="javascript:void(0)"><i class="fa-solid fa-times close-box"></i></a>
     </div>
+    <h4 class="mb-3 text-center">Where you want to talk with us?</h4>
 
-    <div class="switcher__items">
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">Cursor</h2>
-        </div>
-        <div class="switcher__btn">
-          <select name="cursor-style" id="cursor_style">
-            <option value="1">default</option>
-            <option selected value="2">animated</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">mode</h2>
-        </div>
-        <div class="switcher__btn mode-type wc-col-2">
-          <button class="active" data-mode="light">light</button>
-          <button data-mode="dark">dark</button>
-        </div>
-      </div>
-
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">Language Support</h2>
-        </div>
-        <div class="switcher__btn lang_dir wc-col-2">
-          <button class="active" data-mode="ltr">LTR</button>
-          <button data-mode="rtl">RTL</button>
-        </div>
-      </div>
-    </div>
+    <div class="box facebook-box"></div>
+    <div class="box whatsapp-box"></div>
+    <div class="box call-box"></div>
   </div>
-  <!-- Switcher Area End -->
 
 
 
@@ -180,6 +150,7 @@
               </li>
               <li>
                 <a>woocomerce</a>
+                <div class="menu-text"><span>w</span><span>o</span><span>o</span><span>c</span><span>o</span><span>m</span><span>e</span><span>r</span><span>c</span><span>e</span></div>
                 <ul>
                   <li><a href="index-woocommerce.html">Home</a></li>
                   <li><a>shop</a>
@@ -348,7 +319,7 @@
         <div class="woocomerce__header-inner shopfull">
           <div class="woocomerce__header-center">
             <div class="woocomerce__header-logo">
-              <a href="index-woocommerce.html"><img src="assets/imgs/logo/logo-black.png" alt="logo"></a>
+              <a href="index-woocommerce.html"><img src="assets/imgs/logo/site-logo-white-2.png" alt="logo"></a>
             </div>
           </div>
           <div class="woocomerce__header-left ">
@@ -672,27 +643,6 @@
                       </div>
                     </div>
                   </div>
-
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                      <button class="accordion-button pricerange collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsFour" aria-expanded="true" aria-controls="collapsFour">
-                        Price
-                      </button>
-                    </h2>
-                    <div id="collapsFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExample">
-                      <div class="woocomerce__filtering-brand shop-left">
-                        <div class="price-range-slider">
-                          <p class="range-value">
-                            <input type="text" id="amount" readonly>
-                          </p>
-                          <div id="slider-range" class="range-bar"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingFive">
                       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -923,7 +873,7 @@
                         <div class="img-box">
                           <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
                             alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p5.png"
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p1.png"
                             alt="product-img">
                         </div>
                       </a>
@@ -954,7 +904,7 @@
                         <div class="img-box">
                           <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
                             alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p6.png"
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p2.png"
                             alt="product-img">
                         </div>
                       </a>
@@ -985,7 +935,7 @@
                         <div class="img-box">
                           <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
                             alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p7.png"
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p3.png"
                             alt="product-img">
                         </div>
                       </a>
@@ -1016,503 +966,7 @@
                         <div class="img-box">
                           <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
                             alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p8.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p9.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p10.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p11.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p12.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p13.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p14.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p15.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p16.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p17.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p18.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p19.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p20.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p21.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p22.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p23.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p24.png"
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p4.png"
                             alt="product-img">
                         </div>
                       </a>
@@ -1561,8 +1015,39 @@
                         <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
                       </div>
                       <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
+                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Chairby Genzy <br>
+                          Alexis4</a>
+                      </div>
+                      <span class="woocomerce__feature-newprice">$347.00</span>
+                      <span class="woocomerce__feature-oldprice">$870.00</span>
+                    </div>
+                  </div>
+                  <div class="woocomerce__feature-product">
+                    <div class="woocomerce__feature-thumb">
+                      <a href="shop-single.html">
+                        <div class="img-box">
+                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
+                            alt="Blog Thumbnail">
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p2.png"
+                            alt="product-img">
+                        </div>
+                      </a>
+                      <div class="woocomerce__feature-hover">
+                        <div class="woocomerce__feature-carttext">
+                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
+                          <a href="#">Add to cart</a>
+                        </div>
+                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
+                            alt="heart"></a>
+                      </div>
+                    </div>
+                    <div class="woocomerce__feature-content">
+                      <div class="woocomerce__feature-category">
+                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
+                      </div>
+                      <div class="woocomerce__feature-titlewraper">
+                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Harold Cabinet <br>
+                          Visser</a>
                       </div>
                       <span class="woocomerce__feature-newprice">$347.00</span>
                       <span class="woocomerce__feature-oldprice">$870.00</span>
@@ -1592,8 +1077,8 @@
                         <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
                       </div>
                       <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
+                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Man Full-Hata <br>
+                          T-shirt</a>
                       </div>
                       <span class="woocomerce__feature-newprice">$347.00</span>
                       <span class="woocomerce__feature-oldprice">$870.00</span>
@@ -1605,38 +1090,7 @@
                         <div class="img-box">
                           <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
                             alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p12.png"
-                            alt="product-img">
-                        </div>
-                      </a>
-                      <div class="woocomerce__feature-hover">
-                        <div class="woocomerce__feature-carttext">
-                          <img src="assets/imgs/woocomerce/cart.png" alt="cart">
-                          <a href="#">Add to cart</a>
-                        </div>
-                        <a class="woocomerce__feature-heart" href="#"><img src="assets/imgs/woocomerce/heart.png"
-                            alt="heart"></a>
-                      </div>
-                    </div>
-                    <div class="woocomerce__feature-content">
-                      <div class="woocomerce__feature-category">
-                        <a class="woocomerce__feature-categorytitle" href="woocomerce-category.html">Coats & Jackets</a>
-                      </div>
-                      <div class="woocomerce__feature-titlewraper">
-                        <a class="woocomerce__feature-producttitle" href="shop-single.html">Women's Zipup <br>
-                          Track Jacket</a>
-                      </div>
-                      <span class="woocomerce__feature-newprice">$347.00</span>
-                      <span class="woocomerce__feature-oldprice">$870.00</span>
-                    </div>
-                  </div>
-                  <div class="woocomerce__feature-product">
-                    <div class="woocomerce__feature-thumb">
-                      <a href="shop-single.html">
-                        <div class="img-box">
-                          <img class="image-box__item" src="assets/imgs/woocomerce/products/p2.png"
-                            alt="Blog Thumbnail">
-                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p8.png"
+                          <img class="woocomerce__feature-mainImg" src="assets/imgs/woocomerce/products/p4.png"
                             alt="product-img">
                         </div>
                       </a>
@@ -1667,83 +1121,86 @@
           </div>
         </div>
 
+
+
+
       </main>
 
 
-      <!-- footer  -->
-      <footer class="woocomerce__footer">
-        <div class="woocomerce__footer-wrapper">
-          <span class="woocomerce__hero-line line1"></span>
-          <span class="woocomerce__hero-line line2"></span>
-          <span class="woocomerce__hero-line line3"></span>
-          <span class="woocomerce__hero-line line4"></span>
-          <div class="woocomerce__footer-about">
-            <img class="woocomerce__footer-logo" src="assets/imgs/logo/footer-logo-white.png" alt="logo-img">
-            <p class="woocomerce__footer-dis">175122 Halk Spark, New York, <br> USA - 67452</p>
-            <a class="woocomerce__footer-mail" href="mailTo:info@example.com">info@example.com</a>
-            <a class="woocomerce__footer-phone" href="callTo:25487567744">+2 574 - 328 - 301</a>
-          </div>
-          <div class="woocomerce__footer-category category1">
-            <span class="woocomerce__footer-title">Category</span>
-            <ul class="woocomerce__footer-list">
-              <li><a href="#">Woman</a></li>
-              <li><a href="#">Man</a></li>
-              <li><a href="#">Kids & Baby</a></li>
-              <li><a href="#">Jewellery</a></li>
-              <li><a href="#">Beauty</a></li>
-            </ul>
-          </div>
-          <div class="woocomerce__footer-category">
-            <span class="woocomerce__footer-title">Information</span>
-            <ul class="woocomerce__footer-list">
-              <li><a href="#">Company</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Brand Partner</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Newsletter</a></li>
-            </ul>
-          </div>
-          <div class="woocomerce__footer-category">
-            <span class="woocomerce__footer-title">Help</span>
-            <ul class="woocomerce__footer-list">
-              <li><a href="#">Dealer & Agent</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Refund Policy</a></li>
-              <li><a href="#">Delivery</a></li>
-              <li><a href="#">Order Tanking</a></li>
-            </ul>
-          </div>
-          <div class="woocomerce__footer-category form-pt">
-            <span class="woocomerce__footer-title">Newsletter</span>
-            <p class="woocomerce__footer-dis">Sign up to our newsletter and receive daily offer <br> and news updates!
-            </p>
-            <form class="woocomerce__footer-form" action="#">
-              <input type="email" name="email" placeholder="Enter your email">
-              <button class="woocomerce__footer-submit"><img src="assets/imgs/woocomerce/arrow-email.png"
-                  alt="email"></button>
-            </form>
-          </div>
+      <!-- Footer area start -->
+      <footer class="footer__area">
+        <div class="footer__top">
+          <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.5">
         </div>
-        <div class="woocomerce__footer-bottom">
-          <p class="woocomerce__footer-copytext">© 2022 - 2025 | Alrights reserved <br>
-            by <a href="wealcoder.com">Wealcoder</a></p>
-          <ul class="woocomerce__footer-social">
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-          </ul>
-          <ul class="woocomerce__footer-payment">
-            <li>Payment <br>
-              Gateway</li>
-            <li><img src="assets/imgs/woocomerce/payment/payment-1.png" alt="payment"></li>
-            <li><img src="assets/imgs/woocomerce/payment/payment-2.png" alt="payment"></li>
-            <li><img src="assets/imgs/woocomerce/payment/payment-3.png" alt="payment"></li>
-            <li><img src="assets/imgs/woocomerce/payment/payment-4.png" alt="payment"></li>
-          </ul>
+
+        <div class="footer__btm">
+          <div class="container">
+            <div class="row footer__row">
+              <div class="col-xxl-12">
+                <div class="footer__inner">
+                  <div class="footer__widget">
+                    <img class="footer__logo" src="assets/imgs/logo/footer-logo-white.png" alt="Footer Logo">
+                    <p>When do they work well, and when do they on us and finally, when do we actually need how can we
+                      avoid
+                      them.</p>
+                    <ul class="footer__social">
+                      <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
+                      <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-2">
+                    <h2 class="footer__widget-title">Information</h2>
+                    <ul class="footer__link">
+                      <li><a href="about.html">About Company</a></li>
+                      <li><a href="portfolio.html">Case Study</a></li>
+                      <li><a href="career.html">Career</a></li>
+                      <li><a href="blog.html">blog</a></li>
+                      <li><a href="contact.html">contact</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-3">
+                    <h2 class="footer__widget-title">Contact Us</h2>
+                    <ul class="footer__contact">
+                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
+                      <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li>
+                      <li><a href="mailto:info@buildyexample.com">info@buildyexample.com</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="footer__widget-4">
+                    <h2 class="project-title">Have a project in your mind?</h2>
+                    <div class="btn_wrapper">
+                      <a class="wc-btn-primary btn-hover btn-item btn-talk"><span></span> contact us <i
+                          class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
+                    <h4 class="contact-day">Saturday - Thursday</h4>
+                  </div>
+
+                  <div class="footer__copyright">
+                    <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/"
+                        target="_blank">Wealcoder</a>
+                    </p>
+                  </div>
+
+                  <div class="footer__subscribe">
+                    <form action="#">
+                      <input type="email" name="email" placeholder="Enter your email">
+                      <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </footer>
-      <!-- /footer  -->
+      <!-- Footer area end -->
+
 
     </div>
   </div>
@@ -1767,7 +1224,18 @@
   <script src="assets/js/jquery-ui.min.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <script>
+    // talk btn
+    $('.btn-talk').on('click', function (e) {
+      $('.talkus_box').removeClass('d-none');
+    });
 
+    $('.close-box').on('click', function (e) {
+      e.preventDefault();
+
+      $('.talkus_box').addClass('d-none');
+    })
+  </script>
 
 </body>
 
