@@ -27466,7 +27466,7 @@ body {
   text-shadow: 0 16px 0 var(--white);
 }
 .woocomerce__header-left .woocomerce-menu.main-menu-3 > li > a .menu-text {
-  text-shadow: 0 16px 0 var(--black-2);
+  text-shadow: 0 16px 0 var(--white-2); /* edited --black-2 */
 }
 .woocomerce__header-cart {
   display: -webkit-box;
